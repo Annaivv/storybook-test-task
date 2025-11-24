@@ -2,7 +2,7 @@
 
 import { Meta, StoryObj } from "@storybook/react";
 import { useState } from "react";
-import Input from "./Input";
+import Input, { InputProps } from "./Input";
 
 export default {
   title: "Input",
@@ -11,7 +11,7 @@ export default {
 
 type Story = StoryObj<typeof Input>;
 
-const ControlledInput = (args: any) => {
+const ControlledInput = (args: InputProps) => {
   const [value, setValue] = useState(args.value || "");
   return <Input {...args} value={value} onChange={setValue} />;
 };

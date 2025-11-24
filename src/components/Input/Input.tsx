@@ -4,7 +4,7 @@ import { useState } from "react";
 import styles from "./Input.module.css";
 import { Eye, EyeOff, X } from "lucide-react";
 
-interface InputProps {
+export interface InputProps {
   type?: "text" | "password" | "number";
   clearable?: boolean;
   value: string;
