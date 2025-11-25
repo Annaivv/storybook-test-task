@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Hamburger menu */
+.hamburger {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.bar {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  left: 0;
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+
+.bar1 {
+  top: 6px;
+}
+
+.bar2 {
+  top: 14px;
+}
+
+.bar3 {
+  top: 22px;
+}
+
+/* Hamburger animation */
+.hamburger.open .bar1 {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.open .bar2 {
+  opacity: 0;
+}
+
+.hamburger.open .bar3 {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* Sidebar menu */
+.navigation {
+  position: fixed;
+  top: 0;
+  right: -350px;
+  width: 350px;
+  height: 100vh;
+  background: #f4f4f4;
+  transition: right 0.4s ease;
+  z-index: 998;
+}
+
+.navigation.active {
+  right: 0;
+}
+
+.item {
+  list-style: none;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+.arrow {
+  transition: transform 0.3s;
+}
+.arrow.open {
+  transform: rotate(90deg);
+}

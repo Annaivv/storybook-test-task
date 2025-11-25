@@ -20,17 +20,26 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+Screenshot of Input with type "password"
+![password hidden](image.png)
 
-To learn more about Next.js, take a look at the following resources:
+Screenshot of Input with clearable text
+![text clearable](image-1.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Screenshot of Toast with type "success" and the manual closing button
+![success toast](image-2.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Screenshot of self-closing Toast with type "error"
+![error toast](image-3.png)
 
-## Deploy on Vercel
+Screenshot of closed menu
+![closed menu](image-4.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Screenshot of opened menu
+![opened menu](image-5.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Screenshot of opened menu with 1-level submenu open
+![1-level submenu](image-6.png)
+
+Screenshot of opened menu with 2-level submenu open
+![2-level submenu](image-7.png)

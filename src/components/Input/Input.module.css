@@ -1,0 +1,23 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.iconButton {
+  position: absolute;
+  right: 8px;
+  cursor: pointer;
+  color: #666;
+}
+
+.iconButton:hover {
+  color: #333;
+}
+
+.input {
+  width: 100%;
+  padding: 8px 36px 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
