@@ -8,14 +8,6 @@ export default {
 
 type Story = StoryObj<typeof Toast>;
 
-// export interface ToastProps {
-//   message: string;
-//   type?: ToastType;
-//   duration?: number;
-//   onClose?: () => void;
-//   showCloseButton?: boolean;
-// }
-
 export const InfoToast: Story = {
   render: (args: ToastProps) => <Toast {...args} />,
   args: {
